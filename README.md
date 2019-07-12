@@ -4,7 +4,7 @@ This is a simple application that will generate a nice gamertag on each page loa
 
 ---
 
-## To setup
+## Setup
 
 Run `npm i` and `npm start` or `npm run watch` for live reload on file change.
 
