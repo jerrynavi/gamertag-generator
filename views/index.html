@@ -1,5 +1,20 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div id="particles-js"></div>
+<div id="body">
+    <header>
+        <h1>{{title}}</h1>
+        <p>Welcome to {{title}}</p>
+    </header>
+    
+    <div id="content">
+        <p>Your new gamer tag is:</p>
+        <p class="gamertag">{{tag}}</p>
+    </div>
+</div>
 
-<p>Your new gamer tag is:</p>
-<p class="gamertag">{{tag}}</p>
+<script src="javascripts/particles.min.js"></script>
+<script>
+    // const particlesJS = 
+    particlesJS.load('particles-js', 'javascripts/particles.json', () => {
+        console.log('callback - particles-js config loaded');
+    });
+</script>
