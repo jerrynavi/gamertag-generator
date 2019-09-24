@@ -1,3 +1,34 @@
+body {
+  color: #fff;
+  height: 100vh;
+  margin: 0px; }
+
+#particles-js {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #f00; }
+
+#body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  text-align: center; }
+
+#content {
+  text-align: center;
+  color: #2e2e2e;
+  width: fit-content;
+  background: #fff;
+  margin: 10px auto;
+  padding: 16px 32px;
+  border-radius: 6px; }
+
 .gamertag {
   color: #f00;
   font-size: 2em; }
